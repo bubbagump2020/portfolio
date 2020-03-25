@@ -1,24 +1,42 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'shards-react'
+import "bootstrap/dist/css/bootstrap.min.css";
+import "shards-ui/dist/css/shards.min.css"
+import MainPage from './components/structure/MainPage'
+import { ProfessionalSummary, PersonalSummary } from './components/structure/Summaries';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar type="dark" theme="primary" expand="md">
+        <NavbarBrand href="/">
+          <h4 style={{
+                color: 'white',
+                fontWeight: 'bold'
+              }}
+          >
+            Kevin Bagnall
+          </h4>
+        </NavbarBrand>
+        <Nav navbar>
+          <NavItem>
+            <NavLink active href="/career">
+              Career
+            </NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink active href="about">
+              About Kevin
+            </NavLink>
+          </NavItem>
+        </Nav>
+      </Navbar>
+      <Router>
+        <Route exact path="/" component={MainPage} />
+        <Route exact path="/career" component={ProfessionalSummary} />
+        <Route exact path="/about" component={PersonalSummary} />
+      </Router>
     </div>
   );
 }
