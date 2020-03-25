@@ -11,7 +11,7 @@ export const PersonalSummary = () => {
 export const ProfessionalSummary = () => {
     return(
         <div>
-            
+            Professional
         </div>
     )
 }

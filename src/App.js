@@ -17,6 +17,13 @@ function App() {
               }}
           >
             Kevin Bagnall
+            <h6 style={{
+                color: 'white',
+                fontWeight: 'bold'
+              }}
+            >
+              Full Stack Developer
+            </h6>
           </h4>
         </NavbarBrand>
         <Nav navbar>
