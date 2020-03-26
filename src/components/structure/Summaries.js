@@ -38,6 +38,13 @@ export const ProfessionalSummary = () => {
                         The monitoring software used was both commercial solutions such as JIRA for major issues such as standing up a new remote station and Grafana for realtime monitoring, as well as in-house solutions created by Fugro software engineers. The operator had
                         operational control of production systems and could turn off, on, or move broadcasts at their whim.
                     </p>
+                    <p>
+                        I left Fugro in August 2018 due to an inability to maintain the 7-7 shift schedule required for the position (What 7-7 means is 7 a.m. to 7 p.m. for seven days, Monday to Sunday. A week off then 7 p.m. to 7 a.m. for seven days). Between August 2018 and August 2019 I job hunted unsuccessfully.
+                    </p>
+                    <p>
+                        August 2019 was a great turning point. I applied and was accepted into the Flatiron School's Software Engineering coding boot camp which provided a refresher on the topics that I had learned at HCC as well as learning new ideas. It was here that I was introduced to Ruby on Rails, JavaScript, ReactJS and Heroku to name a few.
+                        To see my Flatiron projects as well as what I have done since my graduation in November 2019, click the Projects tab above.
+                    </p>
                 </Col>
             </Row>
         </Container>

@@ -18,13 +18,14 @@ function App() {
               }}
           >
             Kevin Bagnall
-            <h6 style={{
+            {/* <p style={{
                 color: 'white',
-                fontWeight: 'bold'
+                fontWeight: 'bold',
+                fontSize: 18
               }}
             >
-              Full Stack Developer
-            </h6>
+              A Full Stack Developer
+            </p> */}
           </h4>
         </NavbarBrand>
         <Nav navbar>
@@ -40,7 +41,7 @@ function App() {
           </NavItem>
           <NavItem>
             <NavLink active href="/about">
-              About Me
+              About
             </NavLink>
           </NavItem>
         </Nav>
