@@ -8,7 +8,7 @@ const MainPage = () => {
         <Container>
             <Row>
                 <Col sm={{size: 10, order: 2 }}>
-                    Main Page. Intro Area
+                   Main Page, Intro
                 </Col>
             </Row>
         </Container>

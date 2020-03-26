@@ -34,7 +34,7 @@ function App() {
           </NavItem>
           <NavItem>
             <NavLink active href="about">
-              About Kevin
+              About Me
             </NavLink>
           </NavItem>
         </Nav>
