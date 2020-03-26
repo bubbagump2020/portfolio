@@ -4,6 +4,7 @@ import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'shards-react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css"
 import MainPage from './components/structure/MainPage'
+import Projects from './components/structure/Projects'
 import { ProfessionalSummary, PersonalSummary } from './components/structure/Summaries';
 
 function App() {
@@ -33,6 +34,11 @@ function App() {
             </NavLink>
           </NavItem>
           <NavItem>
+            <NavLink active href="/projects">
+              Projects
+            </NavLink>
+          </NavItem>
+          <NavItem>
             <NavLink active href="/about">
               About Me
             </NavLink>
@@ -43,6 +49,7 @@ function App() {
         <Route exact path="/" component={MainPage} />
         <Route exact path="/career" component={ProfessionalSummary} />
         <Route exact path="/about" component={PersonalSummary} />
+        <Route exact path="/projects" component={Projects} />
       </Router>
     </div>
   );
