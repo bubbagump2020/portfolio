@@ -4,7 +4,7 @@ import '../styling/projects.scss'
 
 const Projects = () => {
     return(
-        <Container>
+        <Container className={`projects`}>
             <Row>
                 <Col>
                     <h4>Flatiron Projects</h4>

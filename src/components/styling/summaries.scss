@@ -1,0 +1,45 @@
+.personal-summary{
+    text-align: left;
+    h4{
+        text-align: center;
+    }
+    #dog-owner{
+        h6{
+            text-align: center;
+        }
+    }
+    #gamer{
+        h6{
+            text-align: center;
+        }
+    }
+    #service{
+        h6{
+            text-align: center;
+        }
+    }
+    #try{
+        h6{
+            text-align: center;
+        }
+    }
+    #integrity{
+        text-align: center;
+    }
+    .image{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        img{
+            margin-left: 27%;
+
+            padding-left: 10%;
+            max-height: 400px;
+            max-width: 400px;
+        }
+        p{
+            margin-left: 46%;
+            font-size: 14px;
+        }
+    }
+}
