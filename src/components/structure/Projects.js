@@ -65,7 +65,7 @@ const Projects = () => {
                     <Row>
                         <Col>
                             <h5>
-                                <a href="http://interactive-periodic-table.appspot.com/">Interactive Periodic Table</a>
+                                <a href="http://interactive-periodic-table.herokuapp.com/">Interactive Periodic Table</a>
                             </h5>
                             <p>
                                 A interactive periodic table. Click the elements to see more!
